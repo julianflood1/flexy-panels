@@ -1,0 +1,36 @@
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+}
+
+.panel {
+  height: 200px;
+  border: black solid 2px;
+  margin: 5px;
+  flex-grow: 1;
+}
+
+#blue1, #green2 {
+  flex-basis: 400px;
+}
+#tan1, #green1, #pink2, #blue3 {
+  flex-basis: 200px;
+}
+
+#pink1, #blue2, #tan2 {
+  flex-basis: 200px;
+}
+
+.green {
+  background-color: #48895a;
+}
+.tan {
+  background-color: #f2dfb6;
+}
+.blue {
+  background-color: #6c9c9f;
+}
+.pink {
+  background-color: #ed8674;
+}
